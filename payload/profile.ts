@@ -30,7 +30,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '1년차 백엔드 개발자입니다.',
+    title: '안녕하세요. 성장중인 백엔드 주니어 개발자 권주환입니다.',
     icon: faBell,
   },
 };
