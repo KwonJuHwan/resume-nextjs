@@ -37,7 +37,7 @@ const infrastructure: ISkill.Skill = {
     },
     {
       title: 'AWS',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Docker',
@@ -45,18 +45,18 @@ const infrastructure: ISkill.Skill = {
     },
     {
       title: 'nginx',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Redis',
-      level: 2,
-    },
-    {
-      title: 'Linux',
-      level: 2,
+      level: 3,
     },
     {
       title: 'MySQL',
+      level: 3,
+    },
+    {
+      title: 'Linux',
       level: 2,
     },
   ],

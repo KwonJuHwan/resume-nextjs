@@ -16,7 +16,9 @@ const project: IProject.Payload = {
           content: '백엔드 MSA 설계',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '크롤링 서비스, 백업 서비스, 질병 예측 서비스, 질병&약재 정보 서비스로 구성' },
+            {
+              content: '크롤링 서비스, 백업 서비스, 질병 예측 서비스, 질병&약재 정보 서비스로 구성',
+            },
             {
               content:
                 '크롤링 서비스와 질병 예측 서비스의 고부하 CPU 사용량 및 독립적 확장 가능성을 고려한 서비스 분리 채택',
@@ -65,8 +67,7 @@ const project: IProject.Payload = {
             '검증 서비스에서 사용한 라이브러리 테스트 및 검수 (소프트웨어 검증, 부채널 취약점 검증, 프로토콜 검증)',
         },
         {
-          content:
-            'BoringSSL 기반 PQC 알고리즘 프로토콜 검증 서비스 구축',
+          content: 'BoringSSL 기반 PQC 알고리즘 프로토콜 검증 서비스 구축',
           weight: 'MEDIUM',
           descriptions: [
             { content: 'Redis 데이터 캐싱을 사용하여 내부 포트 점유 관리 자동화 구축' },
@@ -148,7 +149,10 @@ const project: IProject.Payload = {
           content: '화면에 필요한 데이터 처리 및 변환 로직 구현',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '일/월/연간 통계, 일간 쿠폰 리포트, 지역별 쿠폰 평균 개수, 지역별 쿠폰 다운로드 Top3' },
+            {
+              content:
+                '일/월/연간 통계, 일간 쿠폰 리포트, 지역별 쿠폰 평균 개수, 지역별 쿠폰 다운로드 Top3',
+            },
           ],
         },
         {
@@ -192,8 +196,7 @@ const project: IProject.Payload = {
           content: '크롤링과 Scheduler를 사용하여 공모전 및 대회 정보 수집 자동화',
         },
         {
-          content:
-            '세션 기반 로그인 기능 구현 후, JWT 토큰 기반 로그인으로 전환',
+          content: '세션 기반 로그인 기능 구현 후, JWT 토큰 기반 로그인으로 전환',
         },
       ],
     },
