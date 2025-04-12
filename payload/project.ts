@@ -17,7 +17,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: '크롤링 서비스, 백업 서비스, 질병 예측 서비스, 질병&약재 정보 서비스로 구성',
+              content: '크롤링 서비스, 백업 서비스, 질병 예측 서비스, 질병&약재 정보 제공 서비스로 구성',
             },
             {
               content:
@@ -26,11 +26,11 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: 'Selenium Library를 사용한 크롤링으로 사용자 건강검진, 진료 및 투약정보 수집',
+          content: 'Selenium Library를 사용한 크롤링 기술로 사용자 건강검진, 진료 및 투약정보 수집',
         },
         {
           content:
-            'ThreadPoolExecutor를 사용한 멀티스레딩으로 크롤링 평균 응답 속도 감소 ( 최대 8분 → 최대 3분 )',
+            'ThreadPoolExecutor를 사용한 멀티스레딩 기술로 크롤링 평균 응답 속도 감소 ( 최대 8분 → 최대 3분 )',
         },
         {
           content: 'GCS(Google Cloud Storage)를 이용한 백업 서비스 구축',
@@ -49,10 +49,10 @@ const project: IProject.Payload = {
       where: '백엔드 리드 개발',
       descriptions: [
         {
-          content: 'NIST 표준 PQC 알고리즘과 KpqC 채택 알고리즘을 통합한 검증 플랫폼',
+          content: 'NIST 표준 PQC 알고리즘과 KpqC 알고리즘을 통합한 검증 플랫폼',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '운영 홈페이지', href: 'https://pqcmp.kr/' },
+            { content: '운영 홈페이지 링크', href: 'https://pqcmp.kr/' },
             {
               content: '(관련기사) LGU+, 기업용 "PQC 마이그레이션 플랫폼" 다음달 출시',
               href: 'https://zdnet.co.kr/view/?no=20241216092635',
@@ -60,7 +60,7 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: 'Kyber PQC 알고리즘을 이용한 키교환 로직 구현',
+          content: 'Kyber PQC 알고리즘을 사용한 키교환 로직 구현',
         },
         {
           content:
@@ -113,7 +113,7 @@ const project: IProject.Payload = {
           content:
             'PQC 알고리즘을 사업적으로 활용할 수 있도록 지원하기 위한 Alliance Program 플랫폼',
           weight: 'MEDIUM',
-          descriptions: [{ content: '운영 홈페이지', href: 'https://heaanpqc.com/ko-KR/home' }],
+          descriptions: [{ content: '운영 홈페이지 링크', href: 'https://heaanpqc.com/ko-KR/home' }],
         },
         {
           content: '추가 개발 요구사항 (뉴스 게시판, Q&A 고도화 등) 개발',
@@ -143,7 +143,7 @@ const project: IProject.Payload = {
             '야놀자에 등록된 숙박업소 사장님들이 이용할 수 있는 B2B 셀프 쿠폰 발급 서비스 프로젝트',
         },
         {
-          content: 'Batch를 이용하여 대용량 데이터 수집 및 처리',
+          content: 'Spring Batch를 사용하여 대용량 데이터 수집 및 처리',
         },
         {
           content: '화면에 필요한 데이터 처리 및 변환 로직 구현',
