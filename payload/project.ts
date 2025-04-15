@@ -17,7 +17,8 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: '크롤링 서비스, 백업 서비스, 질병 예측 서비스, 질병&약재 정보 제공 서비스로 구성',
+              content:
+                '크롤링 서비스, 백업 서비스, 질병 예측 서비스, 질병&약재 정보 제공 서비스로 구성',
             },
             {
               content:
@@ -113,7 +114,9 @@ const project: IProject.Payload = {
           content:
             'PQC 알고리즘을 사업적으로 활용할 수 있도록 지원하기 위한 Alliance Program 플랫폼',
           weight: 'MEDIUM',
-          descriptions: [{ content: '운영 홈페이지 링크', href: 'https://heaanpqc.com/ko-KR/home' }],
+          descriptions: [
+            { content: '운영 홈페이지 링크', href: 'https://heaanpqc.com/ko-KR/home' },
+          ],
         },
         {
           content: '추가 개발 요구사항 (뉴스 게시판, Q&A 고도화 등) 개발',
