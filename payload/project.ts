@@ -70,9 +70,7 @@ const project: IProject.Payload = {
         {
           content: 'BoringSSL 기반 PQC 알고리즘 프로토콜 검증 서비스 구축',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Redis 데이터 캐싱을 사용하여 내부 포트 점유 관리 자동화 구축' },
-          ],
+          descriptions: [{ content: 'Redis를 사용하여 TLS서버 라이프사이클 관리' }],
         },
         {
           content: 'Admin 서비스 개발',
